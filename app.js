@@ -10,7 +10,7 @@ const resetBtn = document.getElementById('reset-btn');
 const exampleBtns = document.querySelectorAll('.example-btn');
 
 // Google Sheets Configuration
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec'; // ЗАМЕНИТЕ на свой URL
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyuDd6_UgWM6hHDSobA0fGsAWLudMumMZ9c46abkgFcMWUqJSpIqFZw1G0vu-Dqx2n3/exec'; // ЗАМЕНИТЕ на свой URL
 const SHEET_NAME = 'SentimentAnalysis';
 let isGoogleSheetsEnabled = false; // Флаг для включения/выключения отправки в Google Sheets
 
